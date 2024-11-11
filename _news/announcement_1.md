@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-11-04 00:00:00-0400
+date: 2024-8-26 00:00:00-0400
 inline: true
 related_posts: false
 ---
 
-Palu's arXiV was updated! Check it out!
+I’ve started my PhD in Cornell University! Excited for this new chapter in my academic journey.
