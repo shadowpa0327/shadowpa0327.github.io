@@ -2,11 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: >
+  Ph.D. Student<br>
+  Affiliations: <a href="https://www.csl.cornell.edu/">Computer System Laboratory</a><br>
+  Department of Electrical and Computer Engineering<br>
+  Cornell University<br>
 
 profile:
   align: right
-  image: my_pic.jpg
+  image: my_pic2.png
   image_circular: false # crops the image to make it circular
   more_info:
 
