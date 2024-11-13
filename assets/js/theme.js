@@ -53,14 +53,14 @@ let applyTheme = () => {
   document.documentElement.setAttribute("data-theme", theme);
 
   // Add class to tables.
-  let tables = document.getElementsByTagName("table");
-  for (let i = 0; i < tables.length; i++) {
-    if (theme == "dark") {
-      tables[i].classList.add("table-dark");
-    } else {
-      tables[i].classList.remove("table-dark");
-    }
-  }
+  // let tables = document.getElementsByTagName("table");
+  // for (let i = 0; i < tables.length; i++) {
+  //   if (theme == "dark") {
+  //     tables[i].classList.add("table-dark");
+  //   } else {
+  //     tables[i].classList.remove("table-dark");
+  //   }
+  // }
 
   // Set jupyter notebooks themes.
   let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");

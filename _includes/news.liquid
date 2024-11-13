@@ -16,8 +16,8 @@
         {% endif %}
         {% for item in news limit: news_limit %}
           <tr>
-            <th scope="row" style="width: 17%; color:black">{{ item.date | date: '%b %d, %Y' }}</th>
-            <td style="color:black">
+            <th scope="row" style="width: 17%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td>
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
